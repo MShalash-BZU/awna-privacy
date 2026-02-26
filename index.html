@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية - تطبيق عونة</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.8;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #1B8A7A, #15705f);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 28px; margin-bottom: 8px; }
+        .header p { opacity: 0.85; font-size: 14px; }
+        .content { padding: 30px; }
+        .section {
+            margin-bottom: 24px;
+            padding: 20px;
+            background: #f8fafb;
+            border-radius: 12px;
+            border-right: 4px solid #1B8A7A;
+        }
+        .section h2 {
+            color: #1B8A7A;
+            font-size: 18px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .section p { color: #555; font-size: 15px; margin-bottom: 8px; }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            padding: 6px 0;
+            padding-right: 20px;
+            position: relative;
+            color: #555;
+            font-size: 15px;
+        }
+        .section ul li::before {
+            content: '•';
+            color: #1B8A7A;
+            font-size: 18px;
+            position: absolute;
+            right: 0;
+            top: 4px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 13px;
+            border-top: 1px solid #eee;
+        }
+        .app-name { color: #1B8A7A; font-weight: bold; }
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .header { padding: 30px 20px; }
+            .content { padding: 20px; }
+            .section { padding: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>سياسة الخصوصية</h1>
+            <p>تطبيق عونة - سوق القرى المحلي</p>
+            <p>آخر تحديث: فبراير 2026</p>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2>مقدمة</h2>
+                <p>نحن في تطبيق <span class="app-name">"عونة"</span> (سوق القرى) نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية. توضح هذه السياسة كيفية جمع واستخدام وحماية معلوماتك عند استخدام تطبيقنا.</p>
+            </div>
+
+            <div class="section">
+                <h2>البيانات التي نجمعها</h2>
+                <ul>
+                    <li>معلومات الحساب: الاسم، البريد الإلكتروني، رقم الهاتف</li>
+                    <li>معلومات العنوان: القرية، الشارع، العلامات المميزة</li>
+                    <li>معلومات الطلبات: تفاصيل الطلبات، سجل المشتريات</li>
+                    <li>معلومات الموقع: لتحديد منطقة التوصيل (عند الإذن فقط)</li>
+                    <li>بيانات الجهاز: رمز الإشعارات لإرسال التنبيهات</li>
+                    <li>الصور: عند رفع صور المنتجات أو المتجر (للتجار)</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>كيف نستخدم بياناتك</h2>
+                <ul>
+                    <li>معالجة وتوصيل طلباتك بدقة</li>
+                    <li>إرسال إشعارات حول حالة الطلب والعروض</li>
+                    <li>تحسين تجربة المستخدم وخدمات التطبيق</li>
+                    <li>التواصل معك بشأن حسابك وطلباتك</li>
+                    <li>ضمان أمان وسلامة منصتنا</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>مشاركة البيانات</h2>
+                <p>نشارك بياناتك فقط مع الأطراف الضرورية لإتمام خدماتنا:</p>
+                <ul>
+                    <li>التجار: اسمك ورقم هاتفك لتحضير طلبك</li>
+                    <li>السائقون: عنوانك ورقم هاتفك لتوصيل الطلب</li>
+                    <li>مزودو الخدمات: Firebase (إشعارات)، Supabase (تخزين البيانات)، Google Maps (الخرائط)</li>
+                </ul>
+                <p>لا نبيع أو نشارك بياناتك مع أطراف ثالثة لأغراض تسويقية.</p>
+            </div>
+
+            <div class="section">
+                <h2>أمان البيانات</h2>
+                <p>نستخدم تقنيات أمان متقدمة لحماية بياناتك، تشمل:</p>
+                <ul>
+                    <li>تشفير البيانات أثناء النقل والتخزين (SSL/TLS)</li>
+                    <li>مصادقة آمنة عبر Supabase Auth</li>
+                    <li>سياسات أمان على مستوى الصفوف (RLS) في قاعدة البيانات</li>
+                    <li>لا نخزن كلمات المرور بشكل نصي</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>حقوقك</h2>
+                <p>لديك الحقوق التالية فيما يتعلق ببياناتك الشخصية:</p>
+                <ul>
+                    <li>الوصول: يمكنك عرض بياناتك من صفحة الملف الشخصي</li>
+                    <li>التعديل: يمكنك تحديث معلوماتك في أي وقت</li>
+                    <li>الحذف: يمكنك طلب حذف حسابك وجميع بياناتك نهائياً من داخل التطبيق</li>
+                    <li>الإشعارات: يمكنك التحكم في إعدادات الإشعارات من إعدادات جهازك</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>حذف الحساب</h2>
+                <p>يمكنك حذف حسابك في أي وقت من خلال صفحة الملف الشخصي → "حذف الحساب". عند حذف الحساب:</p>
+                <ul>
+                    <li>يتم حذف جميع بياناتك الشخصية</li>
+                    <li>يتم إلغاء جميع الطلبات المعلقة</li>
+                    <li>لا يمكن استرجاع الحساب بعد الحذف</li>
+                    <li>قد نحتفظ ببعض البيانات المجهولة لأغراض إحصائية</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>حماية الأطفال</h2>
+                <p>تطبيقنا غير موجه للأطفال دون سن 13 عاماً. لا نجمع بيانات شخصية من أطفال بشكل متعمد. إذا اكتشفنا أن طفلاً قد قدم بيانات شخصية، سنقوم بحذفها فوراً.</p>
+            </div>
+
+            <div class="section">
+                <h2>خدمات الطرف الثالث</h2>
+                <p>يستخدم التطبيق الخدمات التالية التي لها سياسات خصوصية خاصة بها:</p>
+                <ul>
+                    <li><a href="https://firebase.google.com/support/privacy" target="_blank">Google Firebase</a> - للإشعارات والمصادقة</li>
+                    <li><a href="https://supabase.com/privacy" target="_blank">Supabase</a> - لتخزين البيانات والمصادقة</li>
+                    <li><a href="https://policies.google.com/privacy" target="_blank">Google Maps</a> - لخدمات الخرائط والموقع</li>
+                    <li><a href="https://policies.google.com/privacy" target="_blank">Google Sign-In</a> - لتسجيل الدخول</li>
+                    <li><a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Sign-In</a> - لتسجيل الدخول (iOS)</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>تحديثات السياسة</h2>
+                <p>قد نقوم بتحديث سياسة الخصوصية من وقت لآخر. سيتم إعلامك بأي تغييرات جوهرية عبر إشعار داخل التطبيق أو البريد الإلكتروني.</p>
+            </div>
+
+            <div class="section">
+                <h2>تواصل معنا</h2>
+                <p>إذا كان لديك أي أسئلة أو استفسارات حول سياسة الخصوصية، يمكنك التواصل معنا عبر:</p>
+                <ul>
+                    <li>خدمة الدعم داخل التطبيق</li>
+                    <li>البريد الإلكتروني: support@awna.app</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2026 عونة - Awna. جميع الحقوق محفوظة.</p>
+        </div>
+    </div>
+</body>
+</html>
